@@ -1,0 +1,89 @@
+/* General Body Styles */
+html, body {
+    background: linear-gradient(to bottom right, #f4f4f4, #e0e0e0); /* Gradient background */
+    font-family: 'Arial', sans-serif; /* Change font */
+    color: #333; /* Default text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Full height */
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff; /* Header color */
+    color: white; /* Header text color */
+    padding: 20px 0; /* Padding */
+}
+
+/* Output Box Styles */
+.output-box {
+    background-color: white; /* White background for output */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding */
+    margin: 10px; /* Margin */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Font size */
+}
+
+/* Button Styles */
+button {
+    display: block;
+    width: 250px;
+    margin: 20px auto; /* Center the button */
+    padding: 15px;
+    font-size: 18px; /* Font size */
+    color: white;
+    background-color: #007bff; /* Primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Smooth transition */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Button shadow */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Shadow deepens on hover */
+}
+
+/* Graph Styles */
+.graph {
+    margin: 20px; /* Margin around graphs */
+    padding: 20px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow */
+    background-color: white; /* Background for graphs */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff; /* Footer color */
+    color: white; /* Footer text color */
+    padding: 10px; /* Padding */
+    position: relative; /* Relative position */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+    text-align: center; /* Center text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    button {
+        width: 100%; /* Full width button on mobile */
+    }
+
+    .output-box {
+        margin: 10px; /* Reduced margin for mobile */
+    }
+
+    .graph {
+        margin: 10px; /* Reduced margin for mobile */
+    }
+}
+
+/* Hover Effects for Graphs */
+.graph:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2); /* Shadow deepens on hover */
+}
